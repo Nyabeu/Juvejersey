@@ -1,0 +1,100 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+
+#photoArea img {
+    width: 500px
+}
+
+#photoArea #thumbs img {
+    width: 75px
+}
+
+#app{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+
+}
+
+#badges img {
+    width: 60px
+}
+
+#badgesSelector input {
+    margin: 0 24px
+}
+section {
+    margin: 40px 0
+}
+
+.flock {
+    padding: 8px;
+    border: 1px #aaa solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.flock.selected {
+    color: #ff2850;
+    border-color: #ff2850;
+}
+.hide{
+    width: 20%;
+    display: none;
+}
+/*.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px 0 0;
+}*/
+.flex input{
+    text-transform: capitalize;
+    font-size: 1.5em;
+    margin: 20px 30px 5px 0;
+    padding: 5px;
+    width: 150px;
+}
+.blocFlock, .blocBadge{
+    float: right;
+    font-weight: bold;
+    margin-right: 60px;
+}
+#priceTotal{
+    font-size: 2em;
+    font-weight: bold;
+}
+.clearfix{
+    clear: both;
+}
+#blocNumber{
+    position: absolute;
+    top: 200px;
+    width: 500px;
+    margin: 0 auto;
+    /*left: 250px;*/
+    z-index: 1;
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+}
+#blocName{
+    position: absolute;
+    top: 150px;
+    width: 500px;
+    margin: 0 auto;
+    /*left: 250px;*/
+    z-index: 1;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
